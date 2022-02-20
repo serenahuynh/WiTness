@@ -1,0 +1,312 @@
+:root{
+    --m-pink: #F5AB99;
+    --m-light-orange: #FEB47B;
+    --m-orange: #FF8D6E;
+    --m-purple: #765285;
+    --m-dark-purple: #351C4D;
+}
+html{
+    position: relative;
+    width: 100%;
+    background: var(--m-light-orange);
+    font-family: 'Convergence', sans-serif;
+}
+#logo-img{
+    position: absolute;
+    width: 332.8px;
+    left: 564px;
+}
+#ness{
+    position: absolute;
+    width: 157px;
+    left: 773px;
+    top: 220px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+
+    color: var(--m-orange);
+    -webkit-text-stroke-width: 2.2px;
+    -webkit-text-stroke-color: black;
+}
+.small-text{
+    position: absolute;
+    width: 514px;
+    margin: auto;
+    left: 510px;
+    top: 297px;
+
+    font-family: Convergence;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.085em;
+
+    color: #FFFFFF;
+}
+.button{
+    width: 277.58px;
+    height: 57.33px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-top: 11px;
+    border-radius: 30px;
+
+    position: relative;
+    top: 370px;
+    border: 2.6px solid #000000;
+
+    font-family: Convergence;
+    font-size: 25px;
+    box-sizing: border-box;
+    z-index: 5;
+    transition: 0.2s;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* HOVER EFFECTS */
+.void-btn:hover{
+    background-color: white;
+    transition: 0.2s;
+    border-color: white;
+}
+.void-btn:hover a{
+    color: var(--m-pink);
+}
+.void-btn:hover + .void-behind{
+    background-color: var(--m-pink);
+    border-color: white;
+}
+
+.login-btn:hover{
+    background-color: white;
+    color: var(--m-orange);
+    transition: 0.2s;
+    border-color: white;
+}
+.login-btn:hover a{
+    color: var(--m-orange);
+}
+.login-btn:hover + .login-behind{
+    background-color: var(--m-orange);
+    border-color: white;
+}
+
+.learn-btn:hover{
+    background-color: white;
+    color: var(--m-purple);
+    transition: 0.2s;
+    border-color: white;
+}
+.learn-btn:hover a{
+    color: var(--m-purple);
+}
+.learn-btn:hover + .learn-behind{
+    background-color: var(--m-purple);
+    border-color: white;
+}
+
+
+/* BACKGROUND COLORS */
+.pink{
+    background-color: var(--m-pink);
+}
+.orange{
+    background-color: var(--m-orange);
+}
+.purple{
+    background-color: var(--m-purple);
+}
+.white{
+    background-color: white;
+}
+.void-behind{
+    position: absolute;
+    top: 385px;
+    left: 635px;
+    z-index: 0;
+}
+.login-behind{
+    position: absolute;
+    top: 472px;
+    left: 635px;
+    z-index: 0;
+}
+.learn-behind{
+    position: absolute;
+    top: 559px;
+    left: 635px;
+    z-index: 0;
+}
+
+/************************** VOID PAGE ****************************/
+#void{
+    height: 98.15vh;
+}
+#gif{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+#msg{
+    z-index: 0;
+    position: absolute;
+    width: 664px;
+    height: 55px;
+    left: 446px;
+    top: 105px;
+
+    background: #FFFFFF;
+    border: 5px solid #F5AB99;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 30px;
+
+    font-size: 25px;
+    font-family: Convergence;
+    text-align: center;
+}
+#throw{
+    position: absolute;
+    z-index: 0;
+    font-family: Convergence;
+    padding: 0;
+    top: 190px;
+    left: 620px;
+    border-color: white;
+}
+#throw:hover{
+    background-color: white;
+    color:black;
+    border-color: black;
+}
+#trash{
+    display: none;
+    background-color: white;
+    position: absolute;
+    width: 664px;
+    height: 55px;
+    left: 446px;
+    top: 105px;
+    padding-top: 20px;
+    font-size: 25px;
+    font-family: Convergence;
+    text-align: center;
+    border-radius: 30px;
+    z-index: 1;
+    transition: 1s;
+}
+@keyframes thrown{
+    0%{
+        transform: translate(0px,0px);
+        opacity: 0;
+    }
+    40%{
+        opacity: 1;
+    }
+    68%{
+        transform: translate(0px, 100px);
+        width: 664px;
+        opacity: 1;
+    }
+    100%{
+        transform: translate(320px, 350px);
+        opacity: 0;
+        width: 0px;
+    }
+}
+.animate{
+    animation-name: thrown;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+
+.back-btn{
+    color: white;
+    font-size: 50px;
+    margin: 7px;
+}
+.back-btn:hover {
+    color: var(--m-purple);
+    font-size: 50px;
+    margin: 7px;
+    transition: 0.5s;
+}
+
+/************************** LEARN MORE PAGE ***********************/
+#heading{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+}
+#subheading{
+    font-size: 25px;
+    color: var(--m-purple);
+}
+#sections{
+    display: flex;
+    width: 1350px;
+    margin: auto;
+    margin-top: 50px;
+}
+#heard, #affirm, #achieve{
+    text-align: center;
+    width: 450px;
+}
+.icons{
+    font-size: 70px;
+    color: #2d6c7c;
+}
+.section-heading{
+    margin-top: 5px;
+    font-size: 35px;
+    color: white;
+}
+.section-text{
+    width: 450px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+}
+#create{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+    width: 300px; 
+}
+#create-behind{
+    width: 300px;
+    top: 537px;
+    left: 625px;
+}
+#create:hover{
+    background-color: white;
+    transition: 0.2s;
+    border-color: white;
+}
+#create:hover a{
+    color: var(--m-pink);
+}
+#create:hover + #create-behind{
+    background-color: var(--m-pink);
+    border-color: white;
+}
