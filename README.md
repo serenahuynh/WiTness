@@ -2,7 +2,6 @@
 WiTness is a safe space for womxn in tech to receive and give empowerment to others in the WiT community. <br>
 Domain: http://womxn-in.tech/ <br>
 
-
 ### Be HEARD
 Vent your frustrations in a judgement-free zone. <br>
 ### Receive AFFIRMATIONS
@@ -35,6 +34,12 @@ Keep track of your career goals and move up the levels as you complete goals and
 The more you interact with the platform, the closer you get to becoming verified! <br>
 Verified users get to create and join other womxn’s projects on the hub! <br>
 ![image](https://user-images.githubusercontent.com/65131556/154835951-cf52b36b-0d4a-4df2-9067-c079f57d65d1.png)
+
+# Technologies
+WiTness is a front-end heavy website so most of the coding used was in HTML, CSS, and JavaScript. <br>
+The Twilio API for SMS messaging is written and ran in JavaScript and Node.js. <br>
+Domain.com is used for hosting the domain on http://womxn-in.tech/ (howevever there is still no host yet so the site doesn't work until I set the host up). <br>
+Other resources: Figma, Dribbble, Ionicons, JQuery
 
 
 # Downloading and Running Instructions
