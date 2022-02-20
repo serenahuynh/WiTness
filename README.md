@@ -11,8 +11,12 @@ Receive daily messages filled with encouragement and love. <br>
 Create personal goals, make progress, and level up. <br>
 
 # FEATURES
+### LANDING PAGE
+The simple landing page allows users to not be intimidated by the features and learning curves of using the website! <br>
+![image](https://user-images.githubusercontent.com/65131556/154836454-a396f712-8ec9-4c18-9763-35936bcc8154.png)
+
 ### SCREAM INTO THE VOID
-Vent all your anger into a "your-eyes-only" void. Nothing stored. Nothing seen. Just type all your frustrations and trash it into the black hole!
+Vent all your anger into a "your-eyes-only" void. Nothing stored. Nothing seen. Just type all your frustrations and trash it into the black hole! <br>
 ![image](https://user-images.githubusercontent.com/65131556/154835886-684862a7-97a2-4c97-9673-1e371393cd1c.png)
 
 ### DISCUSS IN THE FORUM
