@@ -24,7 +24,10 @@ Participate and interact with others on the forum! Receive and give advice to th
 
 ### DAILY ENCOURAGEMENTS
 Claim an affirming quote everyday and boost your confidence because you belong in tech! <br>
-<img src="https://user-images.githubusercontent.com/65131556/154836907-f44f37d0-fb1c-4f17-a61c-d9f1e1f83f9e.png" width="80%">
+<img src="https://user-images.githubusercontent.com/65131556/154836907-f44f37d0-fb1c-4f17-a61c-d9f1e1f83f9e.png" width="80%"><br>
+Add your phone number to get SMS messages with these affirmations too! <br>
+<img src="https://user-images.githubusercontent.com/65131556/154859867-9bb8f82f-3144-434c-ab6f-1fa64b196efc.png" width="20%">
+
 
 ### GOAL TRACKING
 Keep track of your career goals and move up the levels as you complete goals and interact with other users! <br>
