@@ -1,6 +1,6 @@
 # WiTness
-WiTness is a safe space for womxn in tech to receive and give empowerment to others in the WiT community.
-Website: http://womxn-in.tech/
+WiTness is a safe space for womxn in tech to receive and give empowerment to others in the WiT community. <br>
+Domain: http://womxn-in.tech/ <br>
 
 
 ### Be HEARD
