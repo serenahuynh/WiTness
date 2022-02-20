@@ -310,3 +310,12 @@ a{
     background-color: var(--m-pink);
     border-color: white;
 }
+
+/********************* FORUM ************************/
+.nav{
+    display: flex;
+    width: 800px;
+    margin: auto;
+    position: absolute;
+    top: -350px;
+}
